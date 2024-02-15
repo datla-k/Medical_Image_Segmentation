@@ -7,4 +7,21 @@
 
 This project is an implementation of the U-Net++ model for medical image segmentation mainly to detect Polyp which is a projecting growth of tissue from a surface in the body, usually a mucous membrane.
 
-<img src = ""/>
+<img src = "https://github.com/datla-k/Medical_Image_Segmentation/blob/main/Images/polyp.jpg"/>
+
+
+## Data Overview
+The CVC-Clinic database  is a collection of digital medical images extracted from colonoscopy videos that contains several examples of Polyp frames and corresponding ground truth.
+
+## Aim of the Project
+The aim of this project is to develop a deep learning model for medical image segmentation using U-Net architecture to Segement the polyps from Colonoscopy images
+
+## Approach Towards the Implementation
+
+1. Understading the essence of the dataset.
+2. Understanding the evaluation metrics used for the prediction.
+3. Unet vs Unet++
+4. Data Augmentation
+5. Model Building using Pytorch
+6. Model Training
+7. Model Prediction
